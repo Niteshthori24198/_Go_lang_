@@ -28,7 +28,7 @@ func main() {
 	list[0] = "nitesh"
 	list[1] = "kumar"
 	list[2] = "go"
-	list[3]= "lang"
+	list[3] = "lang"
 
 	list = append(list, "kushwaha")
 
@@ -45,5 +45,18 @@ func main() {
 	list = append(list[:index], list[index+1:]...)
 
 	fmt.Println("New list ", list)
+
+	// two dimensional slices
+
+	var twoD = make([][]int, 3)
+
+	for i := 0; i < 3; i++ {
+		twoD[i] = make([]int, i+1)
+		for j := 0; j < i+1; j++ {
+			twoD[i][j] = i + j
+		}
+	}
+
+	fmt.Println(twoD)
 
 }

@@ -25,6 +25,10 @@ func main() {
 		fmt.Println(i, val)
 	}
 
+	for ind, val := range "nitesh" {
+		fmt.Println(ind, string(val))
+	}
+
 	x := 0
 
 	for x < 5 {
@@ -33,7 +37,7 @@ func main() {
 		}
 		x++
 	}
-	
+
 msg:
 	fmt.Println("Hello Go")
 
