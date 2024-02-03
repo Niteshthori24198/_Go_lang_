@@ -6,7 +6,9 @@ use (
 	./arrays
 	./conditionalStatement
 	./conversions
+	./functions
 	./loop
+	./map
 	./slices
 	./switchcase
 	./variables
