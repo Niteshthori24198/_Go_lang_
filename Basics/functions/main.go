@@ -29,5 +29,5 @@ func bigSum(values ...int) (string, int) {
 		total += val
 	}
 
-	return "Total sum is : ", total
+	return "value is :", total
 }

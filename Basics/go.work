@@ -4,12 +4,21 @@ use (
 	./Hello
 	./UserInput
 	./arrays
+	./closure
 	./conditionalStatement
 	./conversions
+	./defer
+	./externalModules
+	./files
 	./functions
+	./goroutine
 	./loop
 	./map
+	./methods
+	./pointers
 	./slices
+	./sorting
+	./structs
 	./switchcase
 	./variables
 )
