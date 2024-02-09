@@ -43,4 +43,21 @@ msg:
 	fmt.Println("Hello Go")
 	fmt.Println(x)
 
+
+	package main
+
+import "fmt"
+
+func main() {
+
+lundloop:
+	for i := 0; i < 5; i++ {
+		for j := 0; j < 5; j++ {
+			fmt.Println(i, j)
+			break lundloop;
+		}
+	}
+}
+
+
 }
